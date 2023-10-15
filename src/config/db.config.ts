@@ -23,9 +23,6 @@ const ormConfigCli: DataSourceOptions = {
   migrations: ['src/migrations/*{.ts,.js}'],
 };
 
-console.log("ormConfigCli = ", ormConfigCli);
-console.log("ormConfig    = ", ormConfig);
-
-const datasource = new DataSource(ormConfig);
+const datasource = new DataSource(ormConfigCli);
 
 export default datasource;

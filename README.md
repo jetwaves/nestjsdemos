@@ -6,6 +6,8 @@
     docker-compose up
 ```
 
+RESTful APIs are created at endpoint **/game**
+
 ## some more details
 
 1. it is an api implementation of Mastermind game
